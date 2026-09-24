@@ -1,4 +1,5 @@
 package first.tasks;
 
-public class task2 {
+public class task2
+{
 }
