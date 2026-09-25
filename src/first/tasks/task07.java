@@ -1,6 +1,6 @@
 package first.tasks;
 import java.util.Scanner ;
-public class task7 {
+public class task07 {
     static void main() {
         Scanner obj = new Scanner (System.in) ;
         int a = obj.nextInt() ;

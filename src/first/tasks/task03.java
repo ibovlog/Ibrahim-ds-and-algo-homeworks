@@ -1,6 +1,6 @@
 package first.tasks;
 import java.util.Scanner;
-public class task3 {
+public class task03 {
     static void main() {
 
 

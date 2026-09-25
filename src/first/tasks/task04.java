@@ -1,7 +1,7 @@
 package first.tasks;
 import java.util.Scanner ;
 
-public class task4 {
+public class task04 {
     static void main() {
         Scanner obj = new Scanner(System.in) ;
         int Selsi  = obj.nextInt() ;
