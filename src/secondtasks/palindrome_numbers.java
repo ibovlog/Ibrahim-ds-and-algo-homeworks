@@ -1,0 +1,28 @@
+package secondtasks;
+
+public class palindrome_numbers {
+    static void main() {
+        class Solution {
+            public boolean isPalindrome(int x) {
+
+                if (x < 0) {
+                    return false;
+                }
+
+                long reversed = 0;
+                int temp = x;
+
+
+                while (temp > 0) {
+                    int remainder = temp % 10;
+                    reversed = (reversed * 10) + remainder;
+                    temp = temp / 10;
+                }
+
+
+                return x == reversed;
+            }
+        }
+
+    }
+}
